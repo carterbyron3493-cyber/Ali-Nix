@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ali Nix · Tulsa Real Estate Agent · More Agency</title>
+<meta name="description" content="Ali Nix is a Tulsa real estate agent at More Agency. Bold guidance, full-service marketing, and the kind of attention your home deserves.">
+<link rel="canonical" href="https://alinixrealestate.com/">
+<meta name="theme-color" content="#F5EDDB">
+
+<!-- Favicons -->
+<link rel="icon" href="/assets/favicon/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/favicon/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon.png">
+
+<!-- Link previews: texts, DMs, Facebook, LinkedIn -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ali Nix &#183; More Agency">
+<meta property="og:url" content="https://alinixrealestate.com/">
+<meta property="og:title" content="Ali Nix &#183; Tulsa Real Estate Agent">
+<meta property="og:description" content="Calm guidance. Strategic execution. Results you can feel good about &#8212; whether you&#39;re buying your first or selling your forever.">
+<meta property="og:image" content="https://alinixrealestate.com/assets/og/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ali Nix, real estate agent in Tulsa, Oklahoma">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ali Nix &#183; Tulsa Real Estate Agent">
+<meta name="twitter:description" content="Calm guidance. Strategic execution. Results you can feel good about &#8212; whether you&#39;re buying your first or selling your forever.">
+<meta name="twitter:image" content="https://alinixrealestate.com/assets/og/og-cover.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,400;1,9..144,500&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* Bold, magazine-leaning palette pulled from the inspo: Stacey Edgar's pink/coral/cream,
+     Katy Mueller's sage + chartreuse, Plant Me Studio's playful color-blocking. */
+  --cream:        #F5EDDB;
+  --cream-soft:   #FBF6E9;
+  --paper:        #FFFCF5;
+  --coral:        #E2543B;
+  --coral-dark:   #B83C24;
+  --pink:         #F2A6BD;
+  --pink-soft:    #FAD9E2;
+  --sage:         #7AA67A;
+  --sage-dark:    #294630;
+  --chartreuse:   #CBD24D;
+  --chartreuse-soft:#E4E89E;
+  --gold:         #F0BD3F;
+  --ink:          #1B271F;
+  --ink-soft:     #46554A;
+  --line:         rgba(27,39,31,0.14);
+  --line-soft:    rgba(27,39,31,0.07);
+
+  --display: 'Fraunces', Georgia, serif;
+  --sans:    'DM Sans', system-ui, sans-serif;
+  --hand:    'Caveat', cursive;
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:var(--sans); background:var(--cream); color:var(--ink); overflow-x:hidden; -webkit-font-smoothing:antialiased;}
+img{max-width:100%; display:block;}
+a{color:inherit;}
+
+/* ── MARQUEE TOP STRIP (Plant Me + Katy) ── */
+.marquee{
+  background:var(--chartreuse);
+  border-bottom:1.5px solid var(--ink);
+  overflow:hidden;
+  position:relative;
+}
+.marquee-track{
+  display:flex;
+  gap:3rem;
+  white-space:nowrap;
+  padding:0.65rem 0;
+  animation:scroll 38s linear infinite;
+  font-family:var(--display);
+  font-weight:600;
+  font-style:italic;
+  font-size:0.95rem;
+  letter-spacing:0.04em;
+  color:var(--sage-dark);
+}
+.marquee-track span{display:inline-flex; align-items:center; gap:1.25rem;}
+.marquee-track span::after{content:'✦'; color:var(--coral); font-style:normal; font-size:0.7rem;}
+@keyframes scroll{ from{transform:translateX(0);} to{transform:translateX(-50%);} }
+
+/* ── NAV ── */
+nav{
+  position:sticky; top:0; z-index:90;
+  display:flex; align-items:center; justify-content:space-between;
+  padding:1rem 2.25rem;
+  background:var(--cream);
+  border-bottom:1.5px solid var(--ink);
+}
+.nav-logo{font-family:var(--display); font-size:1.55rem; font-weight:600; color:var(--ink); text-decoration:none; letter-spacing:-0.01em;}
+.nav-logo em{font-style:italic; color:var(--coral); font-weight:500;}
+.nav-links{display:flex; align-items:center; gap:2rem; list-style:none;}
+.nav-links a{font-size:0.78rem; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:var(--ink); text-decoration:none; transition:color 0.2s;}
+.nav-links a:hover{color:var(--coral);}
+.nav-cta{
+  background:var(--ink); color:var(--cream)!important;
+  padding:0.65rem 1.2rem; border-radius:999px;
+  border:1.5px solid var(--ink);
+  transition:all 0.2s;
+}
+.nav-cta:hover{background:var(--coral); color:var(--cream)!important; border-color:var(--coral);}
+.nav-hamburger{display:none; background:none; border:none; cursor:pointer; flex-direction:column; gap:5px; padding:8px;}
+.nav-hamburger span{display:block; width:22px; height:2px; background:var(--ink);}
+
+/* ── PROPERTY SCROLL (single horizontal track at the top) ── */
+.property-scroll{
+  background:var(--cream);
+  border-bottom:1.5px solid var(--ink);
+  padding:2.25rem 0;
+  overflow:hidden;
+}
+.ps-header{
+  max-width:1240px; margin:0 auto 2.25rem; padding:0 2.25rem;
+  display:flex; flex-direction:column; gap:0.85rem;
+}
+.ps-title{
+  font-family:var(--display); font-weight:400;
+  font-size:clamp(2.4rem, 5.5vw, 4.4rem);
+  line-height:1; letter-spacing:-0.02em;
+  color:var(--ink);
+}
+.ps-title em{font-style:italic; color:var(--coral); font-weight:500;}
+.ps-track-wrap{overflow:hidden;}
+@media(max-width:768px){
+  .ps-track-wrap{overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; -ms-overflow-style:none;}
+  .ps-track-wrap::-webkit-scrollbar{display:none;}
+  .ps-track{animation:none;}
+}
+.ps-track{
+  display:flex; gap:1.25rem;
+  width:max-content;
+  animation:psScroll 55s linear infinite;
+  padding:0 0.75rem;
+}
+.ps-slide{
+  position:relative;
+  width:260px; aspect-ratio:4/3;
+  border:1.5px solid var(--ink);
+  border-radius:12px;
+  overflow:hidden;
+  background:var(--cream);
+  flex-shrink:0;
+  box-shadow:4px 4px 0 var(--ink);
+}
+.ps-slide img{width:100%; height:100%; object-fit:cover; display:block;}
+.ps-tag{
+  position:absolute; bottom:0.7rem; left:0.7rem;
+  font-family:var(--sans); font-weight:600;
+  font-size:0.65rem; letter-spacing:0.12em; text-transform:uppercase;
+  padding:0.35rem 0.8rem;
+  border-radius:999px;
+  border:1.5px solid var(--ink);
+  box-shadow:2px 2px 0 var(--ink);
+  z-index:2;
+}
+.ps-tag.for-sale{background:var(--chartreuse); color:var(--sage-dark);}
+.ps-tag.contract{background:var(--gold);       color:var(--ink);}
+.ps-tag.sold    {background:var(--coral);      color:var(--paper);}
+@keyframes psScroll{ from{transform:translateX(0);} to{transform:translateX(-50%);} }
+
+/* ── HERO (split layout: photo on the left, content on the right) ── */
+.hero{
+  display:grid;
+  grid-template-columns: 1fr 1.1fr;
+  border-bottom:1.5px solid var(--ink);
+  min-height:680px;
+  background:var(--pink);
+}
+.hero-photo{
+  position:relative;
+  background:var(--coral);
+  border-right:1.5px solid var(--ink);
+  overflow:hidden;
+}
+.hero-photo img{width:100%; height:100%; object-fit:cover; object-position:center top; display:block;}
+.hero-badge{
+  position:absolute; bottom:1.5rem; left:1.5rem;
+  background:var(--ink); color:var(--cream);
+  padding:0.85rem 1.25rem;
+  border-radius:8px;
+  border:1.5px solid var(--ink);
+  box-shadow:4px 4px 0 var(--ink);
+}
+.hero-badge-label{font-size:0.6rem; letter-spacing:0.22em; text-transform:uppercase; color:var(--gold); margin-bottom:0.3rem; font-weight:500;}
+.hero-badge-text{font-family:var(--display); font-weight:500; font-size:0.95rem; line-height:1.3;}
+
+.hero-text{
+  background:var(--pink);
+  display:flex; flex-direction:column; justify-content:center;
+  padding:4.5rem 4rem;
+}
+.hero-eyebrow{
+  display:inline-flex; align-items:center; gap:0.7rem;
+  font-size:0.72rem; font-weight:500; letter-spacing:0.22em; text-transform:uppercase;
+  color:var(--sage-dark); margin-bottom:1.25rem;
+}
+.hero-eyebrow::before{content:''; width:1.75rem; height:2px; background:var(--coral);}
+.hero-headline{
+  font-family:var(--display); font-weight:400;
+  font-size:clamp(2.8rem, 5.5vw, 5rem);
+  line-height:0.95; letter-spacing:-0.02em;
+  color:var(--ink); margin-bottom:1.5rem;
+}
+.hero-headline em{font-style:italic; color:var(--coral); font-weight:500;}
+.hero-tagline{
+  font-family:var(--display); font-style:italic;
+  font-size:1.2rem; line-height:1.55;
+  color:var(--ink); margin-bottom:2rem;
+  max-width:30rem;
+  font-weight:400;
+}
+.hero-actions{display:flex; gap:0.85rem; flex-wrap:wrap; margin-bottom:2.5rem;}
+.hero-contact-strip{
+  display:flex; flex-wrap:wrap; gap:2rem 2.25rem;
+  padding-top:1.75rem;
+  border-top:1.5px solid rgba(27,39,31,0.25);
+}
+.hero-contact-item{display:flex; flex-direction:column; gap:0.2rem;}
+.hero-contact-label{font-size:0.62rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--ink-soft); font-weight:500;}
+.hero-contact-item a{font-size:0.9rem; color:var(--ink); text-decoration:none; font-weight:500; transition:color 0.2s;}
+.hero-contact-item a:hover{color:var(--coral);}
+
+.btn{
+  display:inline-flex; align-items:center; gap:0.5rem;
+  font-family:var(--sans); font-size:0.78rem; font-weight:600; letter-spacing:0.12em; text-transform:uppercase;
+  padding:0.95rem 1.85rem;
+  border-radius:999px;
+  border:1.5px solid var(--ink);
+  text-decoration:none;
+  transition:all 0.2s;
+  cursor:pointer;
+}
+.btn-primary{background:var(--ink); color:var(--cream);}
+.btn-primary:hover{background:var(--coral); border-color:var(--coral);}
+.btn-outline{background:transparent; color:var(--ink);}
+.btn-outline:hover{background:var(--ink); color:var(--cream);}
+.btn-light{background:var(--cream); color:var(--ink);}
+.btn-light:hover{background:var(--gold); border-color:var(--gold);}
+
+/* ── PHILOSOPHY / QUOTE BAND (Stacey coral block) ── */
+.philosophy{
+  background:var(--coral);
+  padding:5rem 2.25rem 6rem;
+  position:relative;
+  overflow:hidden;
+  border-bottom:1.5px solid var(--ink);
+}
+.philosophy::before{
+  content:'\201C';
+  position:absolute; top:-2.5rem; left:50%; transform:translateX(-50%);
+  font-family:var(--display); font-weight:400; font-style:normal;
+  font-size:18rem; color:rgba(255,252,245,0.18);
+  line-height:1;
+  pointer-events:none;
+  text-rendering:geometricPrecision;
+  -webkit-font-smoothing:antialiased;
+}
+.philosophy-inner{max-width:54rem; margin:0 auto; text-align:center; position:relative;}
+.philosophy-quote{
+  font-family:var(--display); font-weight:400; font-style:italic;
+  font-size:clamp(1.4rem, 2.4vw, 2.1rem);
+  line-height:1.45;
+  color:var(--cream);
+  margin-bottom:1.5rem;
+}
+.philosophy-attribution{
+  font-size:0.78rem; letter-spacing:0.2em; text-transform:uppercase;
+  color:rgba(255,252,245,0.85);
+}
+
+/* ── HOW I CAN HELP (Buying / Selling tickets) ── */
+.help{
+  background:var(--cream-soft);
+  padding:5rem 2.25rem;
+  border-bottom:1.5px solid var(--ink);
+}
+.section-eyebrow{
+  display:inline-flex; align-items:center; gap:0.65rem;
+  font-size:0.72rem; font-weight:500; letter-spacing:0.22em; text-transform:uppercase;
+  color:var(--sage-dark);
+}
+.section-eyebrow::before{content:''; width:1.5rem; height:2px; background:var(--coral);}
+.help-header{max-width:1240px; margin:0 auto 3rem;}
+.help-title{
+  font-family:var(--display); font-weight:400;
+  font-size:clamp(2.2rem, 5vw, 4rem);
+  line-height:1; letter-spacing:-0.02em;
+  margin-top:1rem;
+}
+.help-title em{font-style:italic; color:var(--sage); font-weight:500;}
+.help-grid{
+  display:grid; grid-template-columns:repeat(2,1fr); gap:2rem;
+  max-width:1240px; margin:0 auto;
+}
+.ticket{
+  background:var(--paper);
+  border:1.5px solid var(--ink);
+  border-radius:18px;
+  padding:0;
+  position:relative;
+  overflow:hidden;
+  display:flex; flex-direction:column;
+}
+.ticket-header{
+  display:flex; align-items:center; gap:1rem;
+  padding:1.5rem 1.75rem;
+  border-bottom:1.5px dashed var(--ink);
+  background:var(--chartreuse-soft);
+  position:relative;
+}
+.ticket.sell .ticket-header{background:var(--pink-soft);}
+.ticket-header::before, .ticket-header::after{
+  content:''; position:absolute; bottom:-12px;
+  width:24px; height:24px; border-radius:50%;
+  background:var(--cream-soft);
+  border:1.5px solid var(--ink);
+}
+.ticket-header::before{left:-12px;}
+.ticket-header::after{right:-12px;}
+.ticket-icon{
+  width:54px; height:54px; flex-shrink:0;
+  border-radius:50%;
+  background:var(--paper);
+  border:1.5px solid var(--ink);
+  display:flex; align-items:center; justify-content:center;
+}
+.ticket-icon svg{width:26px; height:26px;}
+.ticket-label{
+  font-size:0.7rem; letter-spacing:0.22em; text-transform:uppercase;
+  color:var(--ink-soft);
+}
+.ticket-title{
+  font-family:var(--display); font-weight:600;
+  font-size:1.7rem;
+  color:var(--ink); line-height:1.05;
+}
+.ticket-body{padding:1.75rem; flex:1; display:flex; flex-direction:column; gap:1rem;}
+.ticket-body p{font-size:0.95rem; line-height:1.65; color:var(--ink-soft);}
+.ticket-list{list-style:none; display:flex; flex-direction:column; gap:0.5rem;}
+.ticket-list li{
+  font-size:0.88rem; color:var(--ink); line-height:1.4;
+  padding-left:1.4rem; position:relative;
+}
+.ticket-list li::before{
+  content:'✦'; position:absolute; left:0; top:0;
+  color:var(--coral); font-size:0.85rem;
+}
+
+/* ── PROCESS (color-blocked steps, Plant Me energy) ── */
+.process{
+  background:var(--sage);
+  padding:5rem 2.25rem;
+  border-bottom:1.5px solid var(--ink);
+  color:var(--cream);
+}
+.process .section-eyebrow{color:var(--chartreuse);}
+.process .section-eyebrow::before{background:var(--gold);}
+.process-header{max-width:1240px; margin:0 auto 3rem;}
+.process-title{
+  font-family:var(--display); font-weight:400;
+  font-size:clamp(2.2rem, 5vw, 4rem);
+  line-height:1; letter-spacing:-0.02em;
+  margin-top:1rem;
+  color:var(--cream);
+}
+.process-title em{font-style:italic; color:var(--gold); font-weight:500;}
+.process-sub{max-width:32rem; font-size:0.95rem; line-height:1.7; color:rgba(245,237,219,0.85); margin-top:0.85rem;}
+
+.process-grid{
+  display:grid; grid-template-columns:repeat(4,1fr); gap:1.25rem;
+  max-width:1240px; margin:0 auto;
+}
+.step{
+  background:var(--cream);
+  border:1.5px solid var(--ink);
+  border-radius:18px;
+  padding:1.5rem 1.4rem 1.75rem;
+  color:var(--ink);
+  display:flex; flex-direction:column;
+}
+.step:nth-child(1){background:var(--gold);}
+.step:nth-child(2){background:var(--pink);}
+.step:nth-child(3){background:var(--chartreuse);}
+.step:nth-child(4){background:var(--coral); color:var(--cream);}
+.step-num{
+  font-family:var(--display); font-style:italic;
+  font-size:3.6rem; line-height:1;
+  font-weight:300;
+  margin-bottom:0.5rem;
+}
+.step:nth-child(4) .step-num{color:var(--cream);}
+.step-phase{
+  font-size:0.7rem; letter-spacing:0.22em; text-transform:uppercase;
+  color:var(--ink-soft); margin-bottom:0.25rem; font-weight:500;
+}
+.step:nth-child(4) .step-phase{color:rgba(255,252,245,0.85);}
+.step-name{
+  font-family:var(--display); font-weight:600;
+  font-size:1.4rem; margin-bottom:0.7rem; line-height:1.1;
+}
+.step-desc{font-size:0.88rem; line-height:1.55; color:var(--ink-soft);}
+.step:nth-child(4) .step-desc{color:rgba(255,252,245,0.92);}
+
+/* ── MARQUEE 2 ── */
+.marquee.two{background:var(--gold);}
+.marquee.two .marquee-track{color:var(--ink);}
+.marquee.two .marquee-track span::after{color:var(--sage-dark);}
+
+/* ── MARKETING ── */
+.marketing{
+  background:var(--paper);
+  padding:5rem 2.25rem;
+  border-bottom:1.5px solid var(--ink);
+}
+.marketing-header{max-width:1240px; margin:0 auto 3rem;}
+.marketing-title{
+  font-family:var(--display); font-weight:400;
+  font-size:clamp(2.2rem, 5vw, 4rem);
+  line-height:1; letter-spacing:-0.02em;
+  margin-top:1rem;
+}
+.marketing-title em{font-style:italic; color:var(--coral); font-weight:500;}
+.marketing-sub{max-width:32rem; font-size:0.95rem; line-height:1.7; color:var(--ink-soft); margin-top:0.85rem;}
+
+.marketing-grid{
+  display:grid; grid-template-columns:repeat(2, 1fr); gap:1.5rem;
+  max-width:1240px; margin:0 auto;
+}
+.mkt-card{
+  background:var(--cream-soft);
+  border:1.5px solid var(--ink);
+  border-radius:18px;
+  padding:2rem 1.85rem;
+  position:relative;
+  display:flex; flex-direction:column; gap:0.75rem;
+  transition:transform 0.25s ease, box-shadow 0.25s ease;
+}
+.mkt-card:hover{transform:translateY(-3px); box-shadow:6px 6px 0 var(--ink);}
+.mkt-num{
+  font-family:var(--display); font-style:italic; font-weight:400;
+  font-size:1.2rem;
+  color:var(--coral);
+  letter-spacing:0.02em;
+}
+.mkt-title{
+  font-family:var(--display); font-weight:600;
+  font-size:1.35rem; line-height:1.2;
+}
+.mkt-body{font-size:0.92rem; line-height:1.65; color:var(--ink-soft);}
+
+/* ── ABOUT (sage block, magazine layout) ── */
+.about{
+  background:var(--cream);
+  padding:5rem 2.25rem;
+  border-bottom:1.5px solid var(--ink);
+}
+.about-inner{
+  max-width:1240px; margin:0 auto;
+  display:grid; grid-template-columns:1fr 1.15fr; gap:3.5rem; align-items:center;
+}
+.about-image-wrap{
+  position:relative;
+  aspect-ratio:4/5;
+  border:1.5px solid var(--ink);
+  border-radius:18px;
+  overflow:hidden;
+  background:var(--sage);
+  box-shadow:10px 10px 0 var(--ink);
+}
+.about-image-wrap img{width:100%; height:100%; object-fit:cover; display:block;}
+.about-image-wrap svg{width:100%; height:100%;}
+.about-sticker{
+  position:absolute; top:1rem; right:1rem;
+  background:var(--gold);
+  color:var(--ink);
+  font-family:var(--hand); font-weight:700;
+  font-size:1.45rem; line-height:1.05;
+  padding:0.5rem 0.9rem;
+  border:1.5px solid var(--ink);
+  border-radius:999px;
+  transform:rotate(8deg);
+  box-shadow:3px 3px 0 var(--ink);
+  text-align:center;
+}
+.about-title{
+  font-family:var(--display); font-weight:400;
+  font-size:clamp(2.2rem, 4.5vw, 3.6rem);
+  line-height:1;
+  letter-spacing:-0.02em;
+  margin:1rem 0 1.25rem;
+}
+.about-title em{font-style:italic; color:var(--coral); font-weight:500;}
+.about-body{font-size:1rem; line-height:1.7; color:var(--ink-soft); margin-bottom:1rem;}
+.about-values{
+  display:grid; grid-template-columns:1fr 1fr; gap:1rem;
+  margin-top:2rem;
+  border-top:1.5px solid var(--ink);
+  padding-top:1.5rem;
+}
+.value-label{font-size:0.66rem; letter-spacing:0.22em; text-transform:uppercase; color:var(--ink-soft); margin-bottom:0.2rem; font-weight:500;}
+.value-text{font-family:var(--display); font-weight:600; font-size:1.05rem; line-height:1.2; color:var(--ink);}
+
+/* ── TESTIMONIALS ── */
+.testimonials{
+  background:var(--pink-soft);
+  padding:5rem 2.25rem;
+  border-bottom:1.5px solid var(--ink);
+}
+.testimonials-header{max-width:1240px; margin:0 auto 3rem;}
+.testimonials-title{
+  font-family:var(--display); font-weight:400;
+  font-size:clamp(2.2rem, 5vw, 4rem);
+  line-height:1; letter-spacing:-0.02em;
+  margin-top:1rem;
+}
+.testimonials-title em{font-style:italic; color:var(--coral); font-weight:500;}
+/* Testimonial scroll */
+.t-scroll-outer{
+  display:flex; align-items:center; gap:0.75rem;
+  max-width:1300px;
+  margin:0 auto;
+  padding:0 0.5rem;
+}
+.testimonials-grid{
+  flex:1; min-width:0;
+  display:flex; gap:1.25rem;
+  overflow-x:auto;
+  scroll-snap-type:x mandatory;
+  -webkit-overflow-scrolling:touch;
+  padding:0.25rem 0.5rem 1.25rem;
+  scrollbar-width:none; -ms-overflow-style:none;
+}
+.testimonials-grid::-webkit-scrollbar{display:none;}
+.t-card{
+  background:var(--paper);
+  border:1.5px solid var(--ink);
+  border-radius:18px;
+  padding:2rem 2rem 1.75rem;
+  display:flex; flex-direction:column; gap:1rem;
+  position:relative;
+  flex:0 0 340px;
+  scroll-snap-align:start;
+}
+.t-card:nth-child(2){background:var(--chartreuse-soft);}
+.t-card:nth-child(3){background:var(--cream);}
+.t-card:nth-child(4){background:var(--gold);}
+/* Scroll arrows */
+.t-arrow{
+  flex-shrink:0;
+  background:var(--ink); color:var(--cream);
+  border:none; border-radius:50%;
+  width:42px; height:42px;
+  display:flex; align-items:center; justify-content:center;
+  cursor:pointer;
+  box-shadow:3px 3px 0 rgba(27,39,31,0.25);
+  transition:background 0.2s, box-shadow 0.2s;
+}
+.t-arrow:hover{background:var(--coral); box-shadow:3px 3px 0 var(--coral-dark, #b84a3a);}
+@media(max-width:900px){.t-arrow{display:none;}}
+.t-stars{display:flex; gap:0.2rem; color:var(--coral);}
+.t-stars svg{width:18px; height:18px;}
+.t-quote{font-family:var(--display); font-size:1.1rem; line-height:1.55; color:var(--ink); font-weight:400;}
+.t-quote::before{content:'\201C'; font-size:1.4em; line-height:0; vertical-align:-0.25em; margin-right:0.05em; color:var(--coral);}
+.t-author{
+  display:flex; flex-direction:column; gap:0.15rem;
+  margin-top:0.5rem; padding-top:0.85rem;
+  border-top:1.5px dashed var(--ink);
+  font-size:0.92rem;
+}
+.t-author strong{font-weight:600; color:var(--ink);}
+.t-author span{font-size:0.8rem; color:var(--ink-soft);}
+
+/* ── CTA BAND ── */
+.cta{
+  background:var(--chartreuse);
+  padding:5rem 2.25rem 6rem;
+  border-bottom:1.5px solid var(--ink);
+  text-align:center;
+  position:relative;
+  overflow:hidden;
+}
+.cta::before{
+  content:''; position:absolute; left:-3rem; top:50%; transform:translateY(-50%);
+  width:14rem; height:14rem; border-radius:50%;
+  background:var(--coral); opacity:0.18;
+}
+.cta::after{
+  content:''; position:absolute; right:-4rem; bottom:-3rem;
+  width:18rem; height:18rem; border-radius:50%;
+  background:var(--sage); opacity:0.22;
+}
+.cta-inner{max-width:42rem; margin:0 auto; position:relative;}
+.cta-eyebrow{
+  display:inline-flex; align-items:center; gap:0.7rem;
+  font-size:0.72rem; font-weight:600; letter-spacing:0.22em; text-transform:uppercase;
+  color:var(--sage-dark);
+  margin-bottom:1rem; justify-content:center;
+}
+.cta-eyebrow::before, .cta-eyebrow::after{content:''; width:1.5rem; height:2px; background:var(--coral);}
+.cta-headline{
+  font-family:var(--display); font-weight:400;
+  font-size:clamp(2.4rem, 5.5vw, 4.6rem);
+  line-height:0.95; letter-spacing:-0.02em;
+  color:var(--ink); margin-bottom:1.25rem;
+}
+.cta-headline em{font-style:italic; color:var(--coral); font-weight:500;}
+.cta-body{font-size:1.05rem; line-height:1.65; color:var(--ink); margin-bottom:2rem;}
+.cta-actions{display:flex; gap:0.85rem; justify-content:center; flex-wrap:wrap;}
+
+/* ── FOOTER ── */
+footer{
+  background:var(--ink);
+  color:var(--cream);
+  padding:4rem 2.25rem 2rem;
+}
+.footer-inner{
+  max-width:1240px; margin:0 auto;
+  display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:3rem;
+  padding-bottom:2.5rem;
+  border-bottom:1px solid rgba(245,237,219,0.18);
+}
+.footer-logo{font-family:var(--display); font-size:1.8rem; font-weight:600; margin-bottom:1rem;}
+.footer-logo em{font-style:italic; color:var(--coral); font-weight:500;}
+.footer-tagline{font-size:0.9rem; line-height:1.65; color:rgba(245,237,219,0.7); margin-bottom:1.25rem;}
+.footer-contact-list{list-style:none; display:flex; flex-direction:column; gap:0.4rem; font-size:0.88rem;}
+.footer-contact-list a{color:rgba(245,237,219,0.85); text-decoration:none;}
+.footer-contact-list a:hover{color:var(--gold);}
+.footer-col-title{font-size:0.7rem; letter-spacing:0.22em; text-transform:uppercase; color:rgba(245,237,219,0.55); margin-bottom:1rem; font-weight:500;}
+.footer-links{list-style:none; display:flex; flex-direction:column; gap:0.5rem; font-size:0.92rem;}
+.footer-links a{color:rgba(245,237,219,0.85); text-decoration:none; transition:color 0.2s;}
+.footer-links a:hover{color:var(--gold);}
+.footer-bottom{
+  max-width:1240px; margin:0 auto;
+  padding-top:1.5rem;
+  display:flex; justify-content:space-between; flex-wrap:wrap; gap:0.6rem;
+  font-size:0.78rem; color:rgba(245,237,219,0.5);
+}
+.footer-bottom a{color:rgba(245,237,219,0.7);}
+
+.lobbii-credit{
+  background:var(--sage-dark);
+  padding:0.85rem 2rem;
+  text-align:center;
+  font-size:0.7rem; color:rgba(245,237,219,0.45); letter-spacing:0.1em;
+}
+.lobbii-credit a{color:rgba(245,237,219,0.7); text-decoration:none;}
+.lobbii-credit a:hover{color:var(--gold);}
+
+/* ── MOBILE ── */
+.mobile-menu{
+  position:fixed; inset:0; z-index:200;
+  background:var(--cream);
+  display:flex; flex-direction:column; align-items:center; justify-content:center;
+  gap:1.5rem;
+  transform:translateX(100%); transition:transform 0.3s ease;
+}
+.mobile-menu.open{transform:translateX(0);}
+.mobile-menu ul{list-style:none; display:flex; flex-direction:column; gap:1rem; text-align:center;}
+.mobile-menu a{font-family:var(--display); font-size:2rem; color:var(--ink); text-decoration:none;}
+.mobile-menu-close{
+  position:absolute; top:1.5rem; right:1.5rem;
+  background:none; border:none; font-size:2rem; cursor:pointer; color:var(--ink);
+}
+
+@media (max-width:960px){
+  .nav-links{display:none;}
+  .nav-hamburger{display:flex;}
+  .hero{grid-template-columns:1fr; min-height:auto;}
+  .hero-photo{aspect-ratio:4/3; border-right:none; border-bottom:1.5px solid var(--ink);}
+  .hero-text{padding:3rem 1.5rem;}
+  .help-grid{grid-template-columns:1fr;}
+  .process-grid{grid-template-columns:1fr 1fr;}
+  .marketing-grid{grid-template-columns:1fr;}
+  .about-inner{grid-template-columns:1fr; gap:2rem;}
+  .t-card{flex:0 0 82vw;}
+  .footer-inner{grid-template-columns:1fr; gap:2rem;}
+  .ps-slide{width:220px;}
+  .philosophy, .help, .process, .marketing, .about, .testimonials, .cta{padding-left:1.25rem; padding-right:1.25rem;}
+  .property-scroll{padding-left:0; padding-right:0;}
+  nav{padding:0.85rem 1.25rem;}
+}
+@media (max-width:560px){
+  .process-grid{grid-template-columns:1fr;}
+  .about-values{grid-template-columns:1fr;}
+  .hero-text{padding:2.5rem 1.25rem;}
+  .ps-slide{width:200px;}
+}
+
+/* Subtle entrance */
+@keyframes fadeUp{from{opacity:0; transform:translateY(12px);} to{opacity:1; transform:translateY(0);}}
+.animate{animation:fadeUp 0.6s ease both;}
+
+/* Google badge on t-cards */
+.t-google{
+  display:inline-flex; align-items:center; gap:0.4rem;
+  font-size:0.68rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--ink-soft);
+  margin-top:0.15rem;
+}
+
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  "@id": "https://alinixrealestate.com/#agent",
+  "name": "Ali Nix",
+  "url": "https://alinixrealestate.com/",
+  "image": "https://alinixrealestate.com/assets/portrait/ali-hero.jpg",
+  "telephone": "+1-603-856-1858",
+  "email": "anix@moreagency.us",
+  "jobTitle": "Real Estate Agent",
+  "priceRange": "$$",
+  "description": "Ali Nix is a real estate agent at More Agency serving buyers and sellers across Tulsa, Oklahoma and the surrounding area.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1783 E 71st St",
+    "addressLocality": "Tulsa",
+    "addressRegion": "OK",
+    "postalCode": "74136",
+    "addressCountry": "US"
+  },
+  "areaServed": { "@type": "City", "name": "Tulsa", "containedInPlace": { "@type": "State", "name": "Oklahoma" } },
+  "worksFor": { "@type": "Organization", "name": "More Agency" },
+  "sameAs": [ "https://instagram.com/mrsalinix" ]
+}
+</script>
+</head>
+<body>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-menu-close" id="menuClose" aria-label="Close menu">&times;</button>
+  <ul>
+    <li><a href="#listings" onclick="document.getElementById('mobileMenu').classList.remove('open')">Listings</a></li>
+    <li><a href="#about" onclick="document.getElementById('mobileMenu').classList.remove('open')">About</a></li>
+    <li><a href="#help" onclick="document.getElementById('mobileMenu').classList.remove('open')">Buying &amp; Selling</a></li>
+    <li><a href="#contact" onclick="document.getElementById('mobileMenu').classList.remove('open')">Contact</a></li>
+  </ul>
+</div>
+
+<!-- NAV -->
+<nav>
+  <a href="#top" class="nav-logo">Ali <em>Nix</em></a>
+  <ul class="nav-links">
+    <li><a href="#listings">Listings</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#help">Buying &amp; Selling</a></li>
+    <li><a href="#process">Process</a></li>
+    <li><a href="#contact" class="nav-cta">Let's Connect</a></li>
+  </ul>
+  <button class="nav-hamburger" id="navToggle" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ═══════════════════════════════════════════════════════════
+     PROPERTY SCROLL — one horizontal track at the top with status tags
+     ═══════════════════════════════════════════════════════════ -->
+<section class="property-scroll" id="listings">
+  <div class="ps-track-wrap">
+    <div class="ps-track">
+      <!-- Former-contract photos lead the carousel, retagged Sold -->
+      <div class="ps-slide"><img src="assets/listings/listing-2.jpg" alt="Sold by Ali: brick two-story" loading="eager"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/listings/listing-2-photo-2.jpg" alt="Sold by Ali: foyer" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/listings/listing-2-photo-3.jpg" alt="Sold by Ali: living room" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <!-- Then the rest, mixed up -->
+      <div class="ps-slide"><img src="assets/listings/listing-3.jpg" alt="Sold: white-brick estate at sunset" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/listings/listing-1.jpg" alt="For sale: charming Tulsa ranch" loading="lazy"><span class="ps-tag for-sale">For Sale</span></div>
+      <div class="ps-slide"><img src="assets/sold/sold-04.jpg" alt="Sold by Ali" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/listings/listing-3-photo-3.jpg" alt="Sold by Ali" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/sold/sold-02.jpg" alt="Sold by Ali" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/listings/listing-1-photo-3.jpg" alt="For sale: kitchen" loading="lazy"><span class="ps-tag for-sale">For Sale</span></div>
+      <div class="ps-slide"><img src="assets/sold/sold-06.jpg" alt="Sold by Ali" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/listings/listing-3-photo-2.jpg" alt="Sold by Ali: foyer" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/sold/sold-01.jpg" alt="Sold by Ali" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/listings/listing-1-photo-2.jpg" alt="For sale: kitchen" loading="lazy"><span class="ps-tag for-sale">For Sale</span></div>
+      <div class="ps-slide"><img src="assets/sold/sold-05.jpg" alt="Sold by Ali" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/listings/listing-3-photo-4.jpg" alt="Sold by Ali: backyard at sunset" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/sold/sold-03.jpg" alt="Sold by Ali" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+
+      <!-- Duplicate set for seamless infinite loop -->
+      <div class="ps-slide"><img src="assets/listings/listing-2.jpg" alt="" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/listings/listing-2-photo-2.jpg" alt="" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/listings/listing-2-photo-3.jpg" alt="" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/listings/listing-3.jpg" alt="" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/listings/listing-1.jpg" alt="" loading="lazy"><span class="ps-tag for-sale">For Sale</span></div>
+      <div class="ps-slide"><img src="assets/sold/sold-04.jpg" alt="" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/listings/listing-3-photo-3.jpg" alt="" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/sold/sold-02.jpg" alt="" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/listings/listing-1-photo-3.jpg" alt="" loading="lazy"><span class="ps-tag for-sale">For Sale</span></div>
+      <div class="ps-slide"><img src="assets/sold/sold-06.jpg" alt="" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/listings/listing-3-photo-2.jpg" alt="" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/sold/sold-01.jpg" alt="" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/listings/listing-1-photo-2.jpg" alt="" loading="lazy"><span class="ps-tag for-sale">For Sale</span></div>
+      <div class="ps-slide"><img src="assets/sold/sold-05.jpg" alt="" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/listings/listing-3-photo-4.jpg" alt="" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+      <div class="ps-slide"><img src="assets/sold/sold-03.jpg" alt="" loading="lazy"><span class="ps-tag sold">Sold</span></div>
+    </div>
+  </div><!-- /ps-track-wrap -->
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     HERO — split layout: big Ali photo on the left, content on the right
+     ═══════════════════════════════════════════════════════════ -->
+<section class="hero" id="about">
+  <div class="hero-photo">
+    <img src="assets/portrait/ali-hero.jpg" alt="Ali Nix, Tulsa real estate agent" loading="eager">
+    <div class="hero-badge">
+      <div class="hero-badge-label">Tulsa, Oklahoma</div>
+      <div class="hero-badge-text">More Agency &middot; Real Estate</div>
+    </div>
+  </div>
+  <div class="hero-text">
+    <div class="hero-eyebrow">Real Estate Agent &middot; Tulsa, OK</div>
+    <h1 class="hero-headline">Your home.<br><em>Your moment.</em></h1>
+    <p class="hero-tagline">Calm guidance. Strategic execution. Results you can feel good about &mdash; whether you're buying your first or selling your forever.</p>
+    <div class="hero-actions">
+      <a href="tel:6038561858" class="btn btn-primary">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.06 10.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/></svg>
+        Book a free consult
+      </a>
+      <a href="#help" class="btn btn-outline">See how I work</a>
+    </div>
+    <div class="hero-contact-strip">
+      <div class="hero-contact-item">
+        <span class="hero-contact-label">Call or Text</span>
+        <a href="tel:6038561858">603-856-1858</a>
+      </div>
+      <div class="hero-contact-item">
+        <span class="hero-contact-label">Email</span>
+        <a href="mailto:anix@moreagency.us">anix@moreagency.us</a>
+      </div>
+      <div class="hero-contact-item">
+        <span class="hero-contact-label">Instagram</span>
+        <a href="https://instagram.com/mrsalinix" target="_blank" rel="noopener">@mrsalinix</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PHILOSOPHY -->
+<section class="philosophy">
+  <div class="philosophy-inner">
+    <p class="philosophy-quote">When it comes to the biggest transaction of your life, you deserve someone whose life's work is navigating real estate &mdash; with dedication, expertise, and personalized attention.</p>
+    <div class="philosophy-attribution">— Ali Nix &middot; More Agency &middot; Tulsa, Oklahoma</div>
+  </div>
+</section>
+
+<!-- HOW I CAN HELP -->
+<section class="help" id="help">
+  <div class="help-header">
+    <div class="section-eyebrow">How I Can Help</div>
+    <h2 class="help-title">Buying or selling &mdash;<br><em>I handle both.</em></h2>
+  </div>
+  <div class="help-grid">
+    <div class="ticket sell">
+      <div class="ticket-header">
+        <div class="ticket-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#1B271F" stroke-width="1.8"><path d="M3 12 L12 4 L21 12" stroke-linejoin="round"/><path d="M5 11 L5 20 L19 20 L19 11" stroke-linejoin="round"/><path d="M10 20 L10 14 L14 14 L14 20"/></svg>
+        </div>
+        <div>
+          <div class="ticket-label">For sellers</div>
+          <div class="ticket-title">Selling your home</div>
+        </div>
+      </div>
+      <div class="ticket-body">
+        <p>You list once. I treat it accordingly &mdash; with a precise pricing strategy, professional marketing, and negotiation that protects every dollar of your equity.</p>
+        <ul class="ticket-list">
+          <li>Expert market analysis &amp; pricing strategy</li>
+          <li>Professional photography, video &amp; property website</li>
+          <li>Social, email &amp; open house campaigns</li>
+          <li>Offer review, negotiation &amp; contract guidance</li>
+          <li>Full support from listing day to closing</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="ticket buy">
+      <div class="ticket-header">
+        <div class="ticket-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#1B271F" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="M21 21 L16 16" stroke-linecap="round"/></svg>
+        </div>
+        <div>
+          <div class="ticket-label">For buyers</div>
+          <div class="ticket-title">Buying a home</div>
+        </div>
+      </div>
+      <div class="ticket-body">
+        <p>I'll help you clarify what you actually want, find it, and negotiate confidently &mdash; so you move into a home you're genuinely excited about.</p>
+        <ul class="ticket-list">
+          <li>In-depth needs assessment &amp; goal-setting</li>
+          <li>Curated search &amp; private showings</li>
+          <li>Offer strategy, negotiation &amp; due diligence</li>
+          <li>Financing coordination &amp; lender connections</li>
+          <li>Guidance from search through closing day</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process" id="process">
+  <div class="process-header">
+    <div class="section-eyebrow">The Process</div>
+    <h2 class="process-title">Clear steps.<br><em>No surprises.</em></h2>
+    <p class="process-sub">Real estate can feel overwhelming. I break it into a clear roadmap so you always know what's next and why.</p>
+  </div>
+  <div class="process-grid">
+    <div class="step">
+      <div class="step-num">01</div>
+      <div class="step-phase">First step</div>
+      <div class="step-name">Consultation</div>
+      <p class="step-desc">We talk about your goals, timeline, and what matters most. No pressure &mdash; just clarity.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">02</div>
+      <div class="step-phase">Strategy</div>
+      <div class="step-name">Plan &amp; prepare</div>
+      <p class="step-desc">Pricing strategy, staging guidance, financing prep &mdash; everything lined up before we move.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">03</div>
+      <div class="step-phase">Execution</div>
+      <div class="step-name">List or search</div>
+      <p class="step-desc">Full marketing launch for sellers. Curated showings and offer strategy for buyers.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">04</div>
+      <div class="step-phase">Finish line</div>
+      <div class="step-name">Close &amp; celebrate</div>
+      <p class="step-desc">Inspections, negotiations, paperwork &mdash; I handle the details so you can enjoy the moment.</p>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE 2 -->
+<div class="marquee two" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Hustle, heart, and a whole lot of resourcefulness</span>
+    <span>Tulsa &amp; the surrounding area</span>
+    <span>The biggest transaction of your life</span>
+    <span>Calm. Strategic. Honest.</span>
+    <span>Hustle, heart, and a whole lot of resourcefulness</span>
+    <span>Tulsa &amp; the surrounding area</span>
+    <span>The biggest transaction of your life</span>
+    <span>Calm. Strategic. Honest.</span>
+  </div>
+</div>
+
+<!-- MARKETING -->
+<section class="marketing" id="marketing">
+  <div class="marketing-header">
+    <div class="section-eyebrow">My Marketing Approach</div>
+    <h2 class="marketing-title">More than a listing.<br><em>A full campaign.</em></h2>
+    <p class="marketing-sub">Every home I list receives a tailored marketing strategy designed to reach the right buyers and drive the best result.</p>
+  </div>
+  <div class="marketing-grid">
+    <div class="mkt-card">
+      <div class="mkt-num">No. 01</div>
+      <h3 class="mkt-title">Professional photography &amp; video</h3>
+      <p class="mkt-body">Every listing receives professional-grade photography and video to create a compelling first impression online, where most buyers begin their search.</p>
+    </div>
+    <div class="mkt-card">
+      <div class="mkt-num">No. 02</div>
+      <h3 class="mkt-title">Strategic digital reach</h3>
+      <p class="mkt-body">Targeted social media campaigns, email marketing to active buyers, and MLS exposure that puts your home in front of the right audience.</p>
+    </div>
+    <div class="mkt-card">
+      <div class="mkt-num">No. 03</div>
+      <h3 class="mkt-title">Precision pricing</h3>
+      <p class="mkt-body">Pricing is part analysis, part strategy. I use current market data to find the number that generates interest and protects your equity.</p>
+    </div>
+    <div class="mkt-card">
+      <div class="mkt-num">No. 04</div>
+      <h3 class="mkt-title">Open houses &amp; showings</h3>
+      <p class="mkt-body">Curated open houses and private showings designed to create the right atmosphere and maximize buyer interest at every opportunity.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+  <div class="about-inner">
+    <div class="about-image-wrap">
+      <div class="about-sticker">Tulsa,<br>OK</div>
+      <img src="assets/portrait/ali-about.jpg" alt="Ali Nix at home in Tulsa" loading="lazy">
+    </div>
+    <div class="about-content">
+      <div class="section-eyebrow">About Ali</div>
+      <h2 class="about-title">Relationships first.<br><em>Results follow.</em></h2>
+      <p class="about-body">My mission is to help you clarify your goals, market your home strategically, and guide you skillfully through the transaction. From preparing your home for sale to negotiating the best possible terms, I'll be by your side &mdash; educating, supporting, and reducing stress throughout the process.</p>
+      <p class="about-body">Settling for a hobbyist isn't an option. You need guidance that's not just about transactions, but about transforming your dreams into reality with dedication, expertise, and personalized attention.</p>
+      <div class="about-values">
+        <div>
+          <div class="value-label">Approach</div>
+          <div class="value-text">Calm &amp; confident</div>
+        </div>
+        <div>
+          <div class="value-label">Priority</div>
+          <div class="value-text">Your best outcome</div>
+        </div>
+        <div>
+          <div class="value-label">Communication</div>
+          <div class="value-text">Honest &amp; clear</div>
+        </div>
+        <div>
+          <div class="value-label">Standard</div>
+          <div class="value-text">Full attention, every time</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials" id="testimonials">
+  <div class="testimonials-header">
+    <div class="section-eyebrow">Client Stories</div>
+    <h2 class="testimonials-title">What clients<br><em>are saying.</em></h2>
+  </div>
+  <div class="t-scroll-outer">
+    <button class="t-arrow t-arrow-left" id="t-prev" aria-label="Previous reviews">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <button class="t-arrow t-arrow-right" id="t-next" aria-label="Next reviews">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+  <div class="testimonials-grid">
+    <div class="t-card">
+      <div class="t-stars" aria-label="5 stars">
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+      </div>
+      <p class="t-quote">Ali brings a calm, confident presence to what can be a really emotional process. She's honest without being harsh, strategic without being pushy, and guides people in a way that makes them feel taken care of."</p>
+      <div class="t-author">
+        <strong>Joanie D.</strong>
+        <span>Client</span>
+      </div>
+    </div>
+
+    <div class="t-card">
+      <div class="t-stars" aria-label="5 stars">
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+      </div>
+      <p class="t-quote">Ali Nix knocks it out of the park &mdash; with her attention to detail, authentic kindness, passion for being of service to others, and knowledge of the business, she is exactly the kind of person you'd want alongside you. Because of her hard work and dedication, we now get to live in our beautiful new home where so many family memories will take place."</p>
+      <div class="t-author">
+        <strong>Chris P.</strong>
+        <span>Home Buyer</span>
+      </div>
+    </div>
+
+    <div class="t-card">
+      <div class="t-stars" aria-label="5 stars">
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+      </div>
+      <p class="t-quote">I highly recommend Ali. She is dedicated, knowledgeable, and truly cares about her clients. She sold my home faster than I ever expected, and whenever something came up during closing, she handled it and helped take the stress off me."</p>
+      <div class="t-author">
+        <strong>Amanda Wilson</strong>
+        <div class="t-google" aria-label="Google review">
+          <svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+          Google
+        </div>
+      </div>
+    </div>
+
+    <div class="t-card">
+      <div class="t-stars" aria-label="5 stars">
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+      </div>
+      <p class="t-quote">Ali is absolutely amazing! She's incredibly prompt, responsive, and helpful throughout the entire process. She made buying and selling feel so much less stressful and much more manageable. Highly recommend working with her!"</p>
+      <div class="t-author">
+        <strong>Grace Lynch</strong>
+        <div class="t-google" aria-label="Google review">
+          <svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+          Google
+        </div>
+      </div>
+    </div>
+
+    <div class="t-card">
+      <div class="t-stars" aria-label="5 stars">
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+      </div>
+      <p class="t-quote">Ali is a top-notch realtor. She will take care of you!"</p>
+      <div class="t-author">
+        <strong>Carter Byron</strong>
+        <div class="t-google" aria-label="Google review">
+          <svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+          Google
+        </div>
+      </div>
+    </div>
+
+    <div class="t-card">
+      <div class="t-stars" aria-label="5 stars">
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+      </div>
+      <p class="t-quote">Unsure about buying or selling a home? Ali Nix is the real estate professional you need! She will listen to your needs, concerns, and ideas and expertly guide you through all the ins and outs of the home buying or selling experience."</p>
+      <div class="t-author">
+        <strong>Carolyn Lynch</strong>
+        <div class="t-google" aria-label="Google review">
+          <svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+          Google
+        </div>
+      </div>
+    </div>
+
+    <div class="t-card">
+      <div class="t-stars" aria-label="5 stars">
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+      </div>
+      <p class="t-quote">We had such a great experience working with Ali on our purchases in the Tulsa area. What impressed us most was how knowledgeable and confident she was throughout the entire process &mdash; honestly, she has a level of experience and dedication that is truly rare."</p>
+      <div class="t-author">
+        <strong>Martha E.</strong>
+        <div class="t-google" aria-label="Google review">
+          <svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+          Google
+        </div>
+      </div>
+    </div>
+
+    <div class="t-card">
+      <div class="t-stars" aria-label="5 stars">
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+      </div>
+      <p class="t-quote">When my little family and I decided to move to a house that fits more of our needs, there was a lot to consider and tons of questions we had. We are so grateful to have found Ali &mdash; she guided us through everything with patience, expertise, and so much heart."</p>
+      <div class="t-author">
+        <strong>Shelby Lynn Phelps</strong>
+        <div class="t-google" aria-label="Google review">
+          <svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+          Google
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /testimonials-grid -->
+  </div><!-- /t-scroll-outer -->
+</section>
+
+<!-- CTA -->
+<section class="cta" id="contact">
+  <div class="cta-inner">
+    <div class="cta-eyebrow">Let's talk</div>
+    <h2 class="cta-headline">Ready when<br><em>you are.</em></h2>
+    <p class="cta-body">Whether you're selling, buying, or simply want an honest read on where you stand &mdash; the initial consultation is free. Reach out and we'll figure out the right next step together.</p>
+    <div class="cta-actions">
+      <a href="tel:6038561858" class="btn btn-primary">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.06 10.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/></svg>
+        Call or text
+      </a>
+      <a href="mailto:anix@moreagency.us" class="btn btn-light">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        anix@moreagency.us
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo">Ali <em>Nix</em></div>
+      <p class="footer-tagline">Real Estate Agent at More Agency. Serving buyers and sellers across Tulsa and the surrounding area with calm expertise and full commitment.</p>
+      <ul class="footer-contact-list">
+        <li><a href="tel:6038561858">603-856-1858</a></li>
+        <li><a href="mailto:anix@moreagency.us">anix@moreagency.us</a></li>
+        <li>1783 E 71st St, Tulsa, OK 74136</li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Quick Links</div>
+      <ul class="footer-links">
+        <li><a href="#listings">Listings</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#help">Buying &amp; Selling</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Connect</div>
+      <ul class="footer-links">
+        <li><a href="https://instagram.com/mrsalinix" target="_blank" rel="noopener">Instagram &middot; @mrsalinix</a></li>
+        <li><a href="tel:6038561858">Call or Text</a></li>
+        <li><a href="mailto:anix@moreagency.us">Email Ali</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 Ali Nix &middot; All rights reserved</span>
+    <span>More Agency &middot; <a href="mailto:anix@moreagency.us">anix@moreagency.us</a></span>
+  </div>
+</footer>
+
+<div class="lobbii-credit">
+  Website built by <a href="https://lobbii.net" target="_blank" rel="noopener">Lobbii AI</a>
+</div>
+
+<script>
+// ── Mobile menu toggle ──
+const navToggle = document.getElementById('navToggle');
+const mobileMenu = document.getElementById('mobileMenu');
+const menuClose = document.getElementById('menuClose');
+if (navToggle) navToggle.addEventListener('click', () => mobileMenu.classList.add('open'));
+if (menuClose) menuClose.addEventListener('click', () => mobileMenu.classList.remove('open'));
+
+// ── Photo reel: auto-scroll on desktop, touch-swipe on mobile ──
+(function() {
+  const wrap  = document.querySelector('.ps-track-wrap');
+  const track = document.querySelector('.ps-track');
+  if (!wrap || !track) return;
+  // On mobile the CSS disables the animation and enables overflow-x:auto.
+  // When the user starts touching, stop the (now-disabled) animation just in case,
+  // and let native scroll take over — nothing else needed.
+})();
+
+// Testimonial scroll arrows
+(function(){
+  const track = document.querySelector('.testimonials-grid');
+  const btnL  = document.getElementById('t-prev');
+  const btnR  = document.getElementById('t-next');
+  if (!track || !btnL || !btnR) return;
+  const SCROLL_AMT = 340 + 20; // card width + gap
+  btnL.addEventListener('click', () => track.scrollBy({ left: -SCROLL_AMT * 2, behavior: 'smooth' }));
+  btnR.addEventListener('click', () => track.scrollBy({ left:  SCROLL_AMT * 2, behavior: 'smooth' }));
+})();
+</script>
+
+</body>
+</html>
