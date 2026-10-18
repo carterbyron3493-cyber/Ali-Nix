@@ -15,7 +15,7 @@ index.html                  the entire site — markup, CSS and JS in one file
 netlify.toml                publish dir, 404 redirect, cache + security headers
 assets/listings/            10 property photos (all Sold)
 assets/sold/                6 sold-badge photos
-assets/pending/             4 photos of the 3 properties under contract
+assets/pending/             4 photos of 3 properties that were under contract (closed Oct 2026 - now tagged Sold)
 assets/portrait/            ali-hero.jpg, ali-about.jpg (1500x2000)
 assets/og/og-cover.jpg      1200x630 link-preview card
 assets/favicon/             favicon.svg + PNG fallbacks + apple-touch-icon
@@ -45,7 +45,8 @@ push — Netlify does the rest.
 ## Listing status
 
 Three tags exist, all defined on `.ps-tag`: `.sold` (coral), `.pending` (gold)
-and `.for-sale` (chartreuse). As of 27 Aug 2026 nothing is for sale — the
+and `.for-sale` (chartreuse). As of 18 Oct 2026 nothing is for sale or pending — every
+slide is Sold (Ali, 18 Oct: "all the ones that are currently on there are sold"). The
 chartreuse rule is kept in the stylesheet for the next active listing but is
 unused in the markup.
 
