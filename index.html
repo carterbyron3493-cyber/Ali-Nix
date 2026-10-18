@@ -130,6 +130,10 @@ nav{
 }
 .ps-title em{font-style:italic; color:var(--coral); font-weight:500;}
 .ps-track-wrap{overflow:hidden;}
+.ps-slide a{display:block;}
+.ps-more{text-align:center; margin:1.6rem 0 0; font-size:0.78rem; letter-spacing:0.1em; text-transform:uppercase; font-weight:500;}
+.ps-more a{color:var(--ink); text-decoration:none; border-bottom:1.5px solid var(--coral); padding-bottom:0.15rem; transition:color 0.2s;}
+.ps-more a:hover{color:var(--coral);}
 @media(max-width:768px){
   .ps-track-wrap{overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; -ms-overflow-style:none;}
   .ps-track-wrap::-webkit-scrollbar{display:none;}
@@ -769,6 +773,11 @@ footer{
 <section class="property-scroll" id="listings">
   <div class="ps-track-wrap">
     <div class="ps-track">
+      <!-- 18 Oct 2026 (Ali): one active listing, two pending, one newly sold - lead the carousel -->
+      <div class="ps-slide"><a href="https://www.homes.com/real-estate-agents/alison-nix/w15ssml/" target="_blank" rel="noopener"><img src="assets/listings/active-01.jpg" alt="For sale: stone-and-stucco Tudor ranch with a gabled entry" loading="eager"></a><span class="ps-tag for-sale">For Sale</span></div>
+      <div class="ps-slide"><img src="assets/pending/pending-05.jpg" alt="Pending: slate-blue bungalow with a full-width front porch" loading="eager"><span class="ps-tag pending">Pending</span></div>
+      <div class="ps-slide"><img src="assets/pending/pending-06.jpg" alt="Pending: the same home's kitchen, exposed brick and teal cabinets" loading="lazy"><span class="ps-tag pending">Pending</span></div>
+      <div class="ps-slide"><img src="assets/sold/sold-07.jpg" alt="Sold by Ali: brick ranch with a stone-walled entry stair" loading="lazy"><span class="ps-tag sold">Sold</span></div>
       <!-- Closed Oct 2026 (Ali, 18 Oct: "all the ones that are currently on there are sold") — most recent first -->
       <div class="ps-slide"><img src="assets/pending/pending-01.jpg" alt="Sold by Ali: white two-story colonial at dusk" loading="eager"><span class="ps-tag sold">Sold</span></div>
       <div class="ps-slide"><img src="assets/pending/pending-02.jpg" alt="Sold by Ali: the same colonial in daylight" loading="lazy"><span class="ps-tag sold">Sold</span></div>
@@ -794,6 +803,10 @@ footer{
       <div class="ps-slide"><img src="assets/sold/sold-03.jpg" alt="Sold by Ali" loading="lazy"><span class="ps-tag sold">Sold</span></div>
 
       <!-- Duplicate set for seamless infinite loop -->
+      <div class="ps-slide"><a href="https://www.homes.com/real-estate-agents/alison-nix/w15ssml/" target="_blank" rel="noopener"><img src="assets/listings/active-01.jpg" alt="" loading="lazy"></a><span class="ps-tag for-sale">For Sale</span></div>
+      <div class="ps-slide"><img src="assets/pending/pending-05.jpg" alt="" loading="lazy"><span class="ps-tag pending">Pending</span></div>
+      <div class="ps-slide"><img src="assets/pending/pending-06.jpg" alt="" loading="lazy"><span class="ps-tag pending">Pending</span></div>
+      <div class="ps-slide"><img src="assets/sold/sold-07.jpg" alt="" loading="lazy"><span class="ps-tag sold">Sold</span></div>
       <div class="ps-slide"><img src="assets/pending/pending-01.jpg" alt="" loading="lazy"><span class="ps-tag sold">Sold</span></div>
       <div class="ps-slide"><img src="assets/pending/pending-02.jpg" alt="" loading="lazy"><span class="ps-tag sold">Sold</span></div>
       <div class="ps-slide"><img src="assets/pending/pending-03.jpg" alt="" loading="lazy"><span class="ps-tag sold">Sold</span></div>
@@ -816,6 +829,8 @@ footer{
       <div class="ps-slide"><img src="assets/sold/sold-03.jpg" alt="" loading="lazy"><span class="ps-tag sold">Sold</span></div>
     </div>
   </div><!-- /ps-track-wrap -->
+  <!-- homes.com keeps her active/pending/sold counts current on its own (Ali, 18 Oct 2026) -->
+  <p class="ps-more"><a href="https://www.homes.com/real-estate-agents/alison-nix/w15ssml/" target="_blank" rel="noopener">See all of Ali's current listings on homes.com &rarr;</a></p>
 </section>
 
 <!-- ═══════════════════════════════════════════════════════════
